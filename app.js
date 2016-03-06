@@ -2,6 +2,10 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var app = express();
 var mongoose = require('mongoose');
+var person = require('./modals/person');
+
+
+
 /*
 setting body parser to parse post request
 */
